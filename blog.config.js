@@ -264,10 +264,10 @@ const BLOG = {
   // TOKEN: Webmention的API token
   COMMENT_WEBMENTION: {
     ENABLE: process.env.NEXT_PUBLIC_WEBMENTION_ENABLE || true,
-    AUTH: process.env.NEXT_PUBLIC_WEBMENTION_AUTH || '',
-    HOSTNAME: process.env.NEXT_PUBLIC_WEBMENTION_HOSTNAME || '',
+    AUTH: process.env.NEXT_PUBLIC_WEBMENTION_AUTH || 'Github',
+    HOSTNAME: process.env.NEXT_PUBLIC_WEBMENTION_HOSTNAME || 'https://www.reksai.link/',
     TWITTER_USERNAME: process.env.NEXT_PUBLIC_TWITTER_USERNAME || '',
-    TOKEN: process.env.NEXT_PUBLIC_WEBMENTION_TOKEN || ''
+    TOKEN: process.env.NEXT_PUBLIC_WEBMENTION_TOKEN || 'token'
   },
 
   // <---- 评论插件
